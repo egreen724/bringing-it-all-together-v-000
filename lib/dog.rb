@@ -36,5 +36,8 @@ class Dog
     new_dog = Self.new(id, name, breed)
   end
   
+  def find_by_name 
+    
+  end
   
 end
