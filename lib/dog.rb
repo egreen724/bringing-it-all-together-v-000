@@ -33,7 +33,7 @@ class Dog
     id = row[0]
     name = row[1]
     breed = row[2]
-    new_dog = Self.new(id, name, breed)
+    new_dog = Dog.new(id, name, breed)
   end
   
   def find_by_name 
