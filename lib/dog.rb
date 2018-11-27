@@ -44,7 +44,7 @@ class Dog
   end
   
   def create 
-    
+    new_dog = Dog()
   end
   
   def self.new_from_db(row)
